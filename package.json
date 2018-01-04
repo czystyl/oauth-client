@@ -1,0 +1,30 @@
+{
+  "name": "oauth-client",
+  "version": "0.1.0",
+  "description": "OAuth client ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czystyl/oauth-client.git"
+  },
+  "keywords": ["oauth", "axios"],
+  "author": "czystyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czystyl/oauth-client/issues"
+  },
+  "devDependencies": {
+    "jest": "^22.0.4",
+    "nock": "^9.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/utils/entrypoint.js",
+    "testURL": "http://examplesite.org/"
+  }
+}
