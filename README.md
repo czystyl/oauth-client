@@ -1,3 +1,5 @@
+![alt text](https://travis-ci.org/czystyl/oauth-client.svg?branch=feature%2Ftravis)
+
 # OAuth Client
 
 Http client based on [Axios](https://github.com/axios/axios) for using with oauth server.
